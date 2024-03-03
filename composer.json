@@ -1,9 +1,9 @@
 {
-    "name": "yyqsg888/tron-api",
+    "name": "yyqsg888/iexbase-tron-api",
     "description": "A PHP API for interacting with Tron (Trx)",
     "license": "MIT",
     "type":   "library",
-    "homepage": "https://github.com/yyqsg888/tron-api",
+    "homepage": "https://github.com/yyqsg888/iexbase-tron-api",
     "authors": [
         {
             "name": "Shamsudin Serderov",

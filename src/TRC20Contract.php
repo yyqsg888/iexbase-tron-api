@@ -326,19 +326,6 @@ class TRC20Contract
     }
 
     /**
-     * Retrieves an account by address.
-     * Gets all confirmed TXs and balances by default
-     *
-     * @param string $address 
-     * @return array 
-     */
-    public function getAccount(string $address): array
-    {
-        return $this->_tron->getManager()
-            ->request("v1/accounts/{$address}", [], 'get');
-    }
-
-    /**
      * Get transaction info by contract address
      *
      * @throws TronException
